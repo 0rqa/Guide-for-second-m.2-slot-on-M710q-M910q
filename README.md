@@ -20,5 +20,12 @@ For SMD parts you will need 8x 0402 100/220nF, 6x 0402 0k (or just solder blob l
 ## Bios update / re-flashing 
 
 After successfully upgrading the tiny you will have to update the bios. For that you will need USB flash drive formatted in FAT32, and software that can unzip iso (I use winrar). <br>
-First thing you will need to do is to [download](https://download.lenovo.com/pccbbs/thinkcentre_bios/m1aj95ausa.iso) the most recent bios ISO image for lenovo tiny4 from lenovo website. If lenovo for some reason made that unavailable there is same [file]() under bios in this repo.
+First thing you will need to do is to [download](https://download.lenovo.com/pccbbs/thinkcentre_bios/m1aj95ausa.iso) the most recent bios ISO image for lenovo tiny4 from lenovo website. If lenovo for some reason made that unavailable there is same [file](https://github.com/0rqa/Guide-for-second-m.2-slot-on-M710q-M910q/blob/main/bios/m1aj95ausa.iso) under bios in this repo.
 
+When you download the ISO, you will want to unzip it and copy all files to FAT32 formatted USB flash drive. After that you will prepare your upgraded tiny by moving jumper next to RJ45 port and COM2 connector from position 5-6 to 1-4. 
+
+![Image3](https://github.com/0rqa/Guide-for-second-m.2-slot-on-M710q-M910q/blob/main/gallery/bios%20flashing.JPG)
+
+After that you can plug into the USB flash drive into second front USB from button (actually not sure if necessary, because sometimes it worked when plugged in the back). After that you power up the tiny and bios updating utility should start. (DO NOT REMOVE THE POWER WHILE UPDATING THE BIOS). When the update finishes the second port should be fully operational. 
+
+## Troubleshooting 
