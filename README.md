@@ -6,7 +6,7 @@
 
 > [!NOTE]
 > M710q - the second m.2 slot is only m.2 sata <br>
-> M910q - the second m.2 slot is only pcie
+> M910q - the second m.2 slot is pcie and sata
 
 
 ## Parts sourcing and part placement
